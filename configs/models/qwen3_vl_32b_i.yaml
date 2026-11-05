@@ -1,0 +1,15 @@
+name: qwen3_vl_32b_i
+engine: vllm_offline
+modality: mllm
+type: base
+
+vllm_init_kwargs:
+  model: Qwen/Qwen3-VL-32B-Instruct
+  max_model_len: 16384
+  gpu_memory_utilization: 0.95
+  max_num_seqs: 256
+  trust_remote_code: true
+
+sampling_params_kwargs:
+  temperature: 0.0
+  max_tokens: 1024

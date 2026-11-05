@@ -1,0 +1,6 @@
+output_dir: results/eval/reversal
+name: reversal_ablation
+
+load_dataset_kwargs:
+  path: kdeng03/VRRPI-Bench-V2
+  split: train

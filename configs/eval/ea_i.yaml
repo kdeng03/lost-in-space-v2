@@ -1,0 +1,6 @@
+output_dir: results/eval/ea_i
+name: ea_i
+
+load_dataset_kwargs:
+  path: kdeng03/intra-image-sr
+  split: train

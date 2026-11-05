@@ -1,0 +1,6 @@
+output_dir: results/eval/vrrpi_bench
+name: vrrpi_bench
+
+load_dataset_kwargs:
+  path: kdeng03/VRRPI-Bench-V2
+  split: train

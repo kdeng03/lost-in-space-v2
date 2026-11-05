@@ -1,0 +1,6 @@
+output_dir: results/eval/ea_iii
+name: ea_iii
+
+load_dataset_kwargs:
+  path: kdeng03/ablation-VRRPI-Diag
+  split: train

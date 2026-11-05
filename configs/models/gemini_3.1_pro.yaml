@@ -1,0 +1,12 @@
+name: gemini_3.1_pro
+engine: openai_chat_completions
+modality: mllm
+
+sdk_init_kwargs:
+  api_key: api_key
+  base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+
+sampling_params_kwargs:
+  model: gemini-3.1-pro-preview
+  max_completion_tokens: 1024
+  

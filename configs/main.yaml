@@ -1,0 +1,14 @@
+# Main Hydra config.
+# Override the active model at the CLI:
+#   python eval.py model=qwen3_vl_4b_i
+# Sweep multiple models:
+#   python eval.py --multirun model=qwen3_vl_4b_i,qwen3_vl_32b_i,phi_4_m_i
+
+defaults:
+  - models: qwen3_vl_8b_i
+  - eval: vrrpi_bench
+  - _self_
+
+hydra:
+  job:
+    chdir: false

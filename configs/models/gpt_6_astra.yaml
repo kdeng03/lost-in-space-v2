@@ -1,0 +1,11 @@
+name: gpt_6_astra
+engine: openai_responses
+modality: mllm
+
+sdk_init_kwargs:
+  api_key: api_key
+  base_url: https://elm.edina.ac.uk/api/v1
+
+sampling_params_kwargs:
+  model: gpt-6-astra
+  max_output_tokens: 1024

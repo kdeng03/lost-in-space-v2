@@ -1,0 +1,6 @@
+output_dir: results/eval/vrrpi_diag
+name: vrrpi_diag
+
+load_dataset_kwargs:
+  path: kdeng03/VRRPI-Diag-V2
+  split: train

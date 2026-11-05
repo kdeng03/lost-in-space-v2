@@ -1,0 +1,6 @@
+output_dir: results/eval/ea_ii
+name: ea_ii
+
+load_dataset_kwargs:
+  path: kdeng03/cross-image-sr
+  split: train

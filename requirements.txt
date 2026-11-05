@@ -1,0 +1,16 @@
+accelerate
+anthropic
+colorama
+datasets
+dotenv
+hydra-core
+ipykernel
+jupyter
+jsonlines
+matplotlib
+numpy
+openai
+pandas
+scikit-learn
+tqdm
+vllm

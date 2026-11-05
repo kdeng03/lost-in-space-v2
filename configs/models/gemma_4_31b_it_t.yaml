@@ -1,0 +1,19 @@
+name: gemma_4_31b_it_t
+engine: vllm_offline
+modality: mllm
+type: base
+
+vllm_init_kwargs:
+  model: google/gemma-4-31B-it
+  max_model_len: 16384
+  gpu_memory_utilization: 0.95
+  max_num_seqs: 256
+  trust_remote_code: true
+
+sampling_params_kwargs:
+  temperature: 0.0
+  max_tokens: 8192
+
+vllm_chat_kwargs:
+  chat_template_kwargs: 
+    enable_thinking: true
